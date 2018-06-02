@@ -1,3 +1,5 @@
+> NOTE: Shifted this directly to the [README.md](README.md) file for now. Eventually will add features issues in the issues list and put together some real documentation. 
+
 # Colligere CLI Application Feature Descriptions
 
 ## Description
