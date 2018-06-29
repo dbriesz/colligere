@@ -55,6 +55,12 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/rendon/testcli"
+  packages = ["."]
+  revision = "6283090d169f51a2410b4e260341a01c9a4c0ca7"
+
+[[projects]]
   name = "github.com/spf13/afero"
   packages = [
     ".",
@@ -121,6 +127,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "3d9da37afc0aff784cdcd3a19c6097770c27b2c1dc92a26174a68f6a4760a006"
+  inputs-digest = "c36a1b2026212099f6f798fc567883a846993e8591b62f7566c55fac3e078cb0"
   solver-name = "gps-cdcl"
   solver-version = 1
