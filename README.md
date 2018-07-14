@@ -12,6 +12,14 @@ A CLI for pushing generated data to API end points for testing and experimentati
 
 The idea behind this CLI is to specifically create a way to send generated data against a particular API end point.
 
+## Dev Setup
+
+git clone git@github.com:ThrashingCode/colligere.git
+
+## Installation
+
+To be written...
+
 ### Features
 
 #### Data Generation
