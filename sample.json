@@ -1,0 +1,12 @@
+
+
+
+The CLI will generate real world style data to submit via a schema. The schema will dictate basic structure from data types, how many elements of data to generate, and the particular kind of data. For example, data types would include types like integer, float, strings, and similar. The number of elements will simply be the number of items to generate in total. The kind of data would entail things like addresses, names, first names, last names, zip codes, credit cards, general lorum ipsum, and other kinds.
+
+* GenerateCount - How many elements of data to generate.
+* SourceDestination - Source destination of where the generated data would be sent. Some possible options (and hope to support) might include; file, console, SQL Server, Postgresql, ?? Maria DB ??, Cassandra, DataStax Enterprise, and [CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/).
+* Schema
+    * {
+        ... header details ...
+            
+    }

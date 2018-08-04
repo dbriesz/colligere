@@ -1,0 +1,15 @@
+{
+    "Execute": "true",
+    "GenerateCount": "5",
+    "Destination": {
+        "Source": "console"
+    },
+    "Schema": {
+        "Table": {
+            "Name": "Passengers",
+            "Columns": {
+                "Passenger": "FullName"
+            }
+        }
+    }
+}

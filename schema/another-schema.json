@@ -1,0 +1,28 @@
+{
+    "Execute": "false",
+    "GenerateCount": "10",
+    "Destination": {
+        "Source": "Cassandra",
+        "Connection": "localhost:9042",
+        "Auth": {
+            "Type": "PlainText",
+            "Username": "DontPutitHerePutItInVault",
+            "Password": "SameGetItInVault"
+        }
+    },
+    "Schema": {
+        "Table": {
+            "Name": "Passengers",
+            "Columns": {
+                "Passenger": "FullName",
+                "FirstName": "FirstName",
+                "LastName": "LastName",
+                "DateOfBirth": "RandomDate",
+                "Minor": "Bool",
+                "Paid": "Money",
+                "Cost": "Money",
+                "Class": "Range"
+            }
+        }
+    }
+}

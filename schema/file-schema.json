@@ -1,0 +1,16 @@
+{
+    "Execute": "true",
+    "GenerateCount": "5",
+    "Destination": {
+        "Source": "file",
+        "Name": "./generated-data"
+    },
+    "Schema": {
+        "Table": {
+            "Name": "Passengers",
+            "Columns": {
+                "Passenger": "FullName"
+            }
+        }
+    }
+}
