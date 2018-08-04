@@ -14,7 +14,16 @@ The idea behind this CLI is to specifically create a way to send generated data 
 
 ## Dev Setup
 
+Setup a standard Go environment. Then install Go Dependency tool. Installation instructions are [here](https://github.com/golang/dep).
+
+Then clone to a local repository and run `dep ensure`.
+
+```
 git clone git@github.com:ThrashingCode/colligere.git
+dep ensure
+```
+
+Ideally make yourself a branch to do the coding, research, and testing on. Then run `go build` and enjoy your coding. Happy hacking!
 
 ## Installation
 
