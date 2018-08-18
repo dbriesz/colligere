@@ -2,6 +2,24 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/Pallinder/go-randomdata"
+  packages = ["."]
+  revision = "15df0648130a623e418886f81b2aaecd0a00547b"
+
+[[projects]]
+  name = "github.com/brianvoe/gofakeit"
+  packages = [".","data"]
+  revision = "867949f31ef6270f38b8d49763d802eab5e7ee20"
+  version = "v3.11.4"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/corpix/uarand"
+  packages = ["."]
+  revision = "2b8494104d86337cdd41d0a49cbed8e4583c0ab4"
+
+[[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
   revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
@@ -12,6 +30,12 @@
   name = "github.com/hashicorp/hcl"
   packages = [".","hcl/ast","hcl/parser","hcl/printer","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
   revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/icrowley/fake"
+  packages = ["."]
+  revision = "4178557ae428460c3780a381c824a1f3aceb6325"
 
 [[projects]]
   name = "github.com/inconshreveable/mousetrap"
@@ -100,6 +124,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "3d9da37afc0aff784cdcd3a19c6097770c27b2c1dc92a26174a68f6a4760a006"
+  inputs-digest = "6a80ceef57ce1626ea74a710c913c9b4be56ddd1f76b6e153a53801888b6c842"
   solver-name = "gps-cdcl"
   solver-version = 1
