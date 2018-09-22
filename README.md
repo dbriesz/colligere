@@ -25,6 +25,17 @@ dep ensure
 
 Ideally make yourself a branch to do the coding, research, and testing on. Then run `go build` and enjoy your coding. Happy hacking!
 
+**Docker**
+
+For getting up and running to work against a Cassandra Node with Docker follow these steps.
+
+**More to come for this section**
+
+```    
+docker run --name colligere-cassandra -d cassandra:3.11.3
+docker exec -it colligere-cassandra bash
+```
+
 ## Installation
 
 To be written...

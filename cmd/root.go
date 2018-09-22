@@ -39,9 +39,6 @@ var rootCmd = &cobra.Command{
 
 		fmt.Print(session)
 
-		// docker run --name colligere-cassandra -d cassandra:3.11.3
-		// docker exec -it colligere-cassandra bash
-
 	},
 }
 
